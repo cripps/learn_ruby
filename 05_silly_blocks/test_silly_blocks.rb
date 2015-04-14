@@ -42,8 +42,8 @@ class TestSillyBlocks < MiniTest::Test
   end
 
   # Now, edit the reverser method above to get this test to pass
-  def test_reverses_each_word_returned_by_block
 
+  def test_reverses_each_word_returned_by_block
     result = reverser do
         "hello dolly"
       end
